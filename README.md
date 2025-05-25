@@ -1,4 +1,11 @@
 # Challenge 1:
+Pretrained Models with custom heads have been used with 5-fold cross validation and image size of 512
+Models used are 
+* resnext50_32x4d           
+* EfficientnetB3          
+* EfficientnetB5            
+* EfficientnetB7               
+* Vision Transformer Patch 16 384         
 
 | Notebook Name | Description |
 |----------|----------
