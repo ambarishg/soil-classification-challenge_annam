@@ -15,7 +15,18 @@ Models used are
 | soil-02-vit   | Notebook for the VIT classification  training   |   
 
 
-# Challenge 2:
+# Challenge 2:         
+
+We follow a autoencoder architecture to  train the images 
+
+The anomalies are detected using the reconstruction error  
+
+Top 5% are counted as anomalies        
+
+Backbone used
+EfficientnetB0 , EfficientnetB1 ,EfficientnetB3 , EfficientnetB5
+Simple Auto Encoder  
+
 
 | Notebook Name | Description |
 |----------|----------
