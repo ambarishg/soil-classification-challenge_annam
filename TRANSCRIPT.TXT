@@ -1,0 +1,52 @@
+Team Name
+BUKUN
+
+Team Members Name
+AMBARISH GANGULY
+
+ADRIJA PROSAD SINHA ROY
+
+Approach of solving the problem
+
+Challenge 1 :
+The Soil Image Classification Challenge is a machine learning competition organized by Annam.ai at IIT Ropar, serving as an initial task for shortlisted hackathon participants. 
+Competitors will build models to classify each soil image into one of four categories: Alluvial soil, Black soil, Clay soil, or Red soil. 
+
+Pretrained Models with custom heads have been used with 5-fold cross validation and image size of 512
+Models used are 
+resnext50_32x4d
+EfficientnetB3
+EfficientnetB5
+EfficientnetB7
+Vision Transformer Patch 16 384
+
+
+Challenge 2
+
+The Soil Image Classification Challenge is a machine learning competition organized by Annam.ai at IIT Ropar, serving as an initial task for shortlisted hackathon participants.
+Competitors will build models to classify the images to if they're soil image or not.
+
+We follow a autoencoder architecture to  train the images
+
+The anomalies are detected using the reconstruction error
+
+Top 5% are counted as anomalies
+
+Backbone used
+EfficientnetB0 , EfficientnetB1 ,EfficientnetB3 , EfficientnetB5
+Simple Auto Encoder 
+
+
+Challenges Faced
+
+Understanding the Challenge 2 was a Challenge since the Labels were not explained clearly
+Good description of the labels are necessary
+
+How did you overcome the challenge?
+
+Understood the challenge after investigating the data and the submission.
+
+Final Observation and Leaderboard Score.
+
+Challenge 1 - Perfect Score of 1.0
+Challenge 2  - 0.5478
